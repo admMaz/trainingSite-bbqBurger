@@ -1,0 +1,333 @@
+                    body {
+                        margin: 0 auto;
+                        font-family: 'Lato', sans-serif, Verdana;
+                        color: #fff;
+                        background-color: #000;
+                        font-size: 13px;
+                    }
+                    
+                    html {
+                        scroll-behavior: smooth;
+                    }
+                    /***class style**/
+                    
+                    .center {
+                        text-align: center;
+                    }
+                    
+                    .block {
+                        display: block !important;
+                    }
+                    
+                    .red {
+                        color: #c0392b;
+                        letter-spacing: 0.15rem;
+                    }
+                    
+                    .black-bg {
+                        background-color: #000;
+                    }
+                    
+                    .red-bg {
+                        background-color: #c0392b;
+                    }
+                    
+                    .bg-header {
+                        background: rgba(0, 0, 0, 0.5);
+                        width: 100%;
+                        height: 100%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                    
+                    .container {
+                        width: 80%;
+                        margin: 0 auto;
+                    }
+                    
+                    .overlay {
+                        margin-top: -7.5rem;
+                        margin-bottom: 3rem;
+                    }
+                    
+                    .content {
+                        display: flex;
+                        padding: 1rem;
+                    }
+                    
+                    hr {
+                        width: 100px;
+                        border: 1px solid #000;
+                    }
+                    
+                    header h1 {
+                        font-size: 2rem;
+                        font-weight: 500;
+                    }
+                    
+                    header h2 {
+                        font-size: 1.25rem;
+                    }
+                    /*****mobile****/
+                    
+                    @media screen and (max-width:600px) {
+                        #main-nav {
+                            font-size: 0.5rem;
+                            padding: 0;
+                        }
+                        .text {
+                            font-size: 0.8rem;
+                            padding: 5%;
+                        }
+                        header h1 {
+                            font-size: 1.5rem;
+                        }
+                        header h2 {
+                            font-size: 1rem;
+                        }
+                        #header .container {
+                            margin: 0;
+                        }
+                        .container {
+                            width: 100%;
+                        }
+                        .content {
+                            display: block;
+                        }
+                        .over-left {
+                            margin-left: 0 !important;
+                        }
+                        #menu .burger {
+                            display: block !important;
+                        }
+                        .desc h2 {
+                            text-align: center;
+                        }
+                        .burger {
+                            text-align: center;
+                        }
+                        #contact {
+                            text-align: center;
+                        }
+                        li {
+                            padding: 5px;
+                        }
+                    }
+                    
+                    @media screen and (max-width:750px) {
+                        #menu .burger {
+                            display: block !important;
+                        }
+                    }
+                    
+                    .text {
+                        text-align: center;
+                        letter-spacing: 0.2rem;
+                        font-size: 2rem;
+                        text-transform: uppercase;
+                        font-weight: 500;
+                    }
+                    /******start nav*****/
+                    
+                    #header {
+                        display: flex;
+                        margin: 0;
+                        border-bottom: 2px solid #000;
+                    }
+                    
+                    #header .container {
+                        display: flex;
+                    }
+                    
+                    #main-nav {
+                        text-transform: uppercase;
+                        display: flex;
+                        list-style: none;
+                        font-size: 0.7rem;
+                        margin: 0;
+                    }
+                    
+                    #logo {
+                        padding: 20px;
+                        font-size: 1rem;
+                        font-weight: 600;
+                        cursor: pointer;
+                    }
+                    
+                    #logo a {
+                        color: #000;
+                    }
+                    
+                    li {
+                        padding: 20px;
+                    }
+                    
+                    a {
+                        color: #fff;
+                        text-decoration: none;
+                        transition: ease-in 0.3s;
+                    }
+                    
+                    #main-nav li a {
+                        transition: ease-in 0.5s;
+                        padding: 0.5em;
+                    }
+                    
+                    #main-nav li a:hover {
+                        border-bottom: 2px solid #fff;
+                        color: #000;
+                    }
+                    
+                    .sticky {
+                        position: fixed;
+                        top: 0;
+                        width: 100%;
+                    }
+                    /*** end nav**/
+                    /***about section***/
+                    
+                    .header-img {
+                        height: 500px;
+                        background: url("./img/copy.jpg") no-repeat center center fixed;
+                        -webkit-background-size: cover;
+                        -moz-background-size: cover;
+                        -o-background-size: cover;
+                        background-size: cover;
+                    }
+                    
+                    .img-box {
+                        display: flex;
+                        justify-content: center;
+                    }
+                    
+                    .head-title {
+                        text-align: center;
+                        padding-top: 2rem;
+                        text-transform: uppercase;
+                        letter-spacing: 0.4rem;
+                    }
+                    
+                    img {
+                        width: 250px;
+                        height: 250px;
+                    }
+                    
+                    .container p {
+                        background-color: #000;
+                        padding: 1rem;
+                    }
+                    
+                    .over-left {
+                        margin-left: -2rem;
+                    }
+                    /***menu section**/
+                    
+                    #menu>header {
+                        background: url("./img/menu.jpg") no-repeat center center fixed;
+                        -webkit-background-size: cover;
+                        -moz-background-size: cover;
+                        -o-background-size: cover;
+                        background-size: cover;
+                    }
+                    
+                    .overlay-bl {
+                        margin-top: -4rem;
+                    }
+                    
+                    #menu .burger {
+                        display: flex;
+                        border-bottom: 2px solid #c0392b;
+                        margin: 2rem 0;
+                    }
+                    
+                    #menu .desc {
+                        padding: 1rem;
+                    }
+                    
+                    #menu p {
+                        padding: 0 1rem !important;
+                    }
+                    
+                    #menu .img-box img {
+                        height: 250px;
+                        width: 250px;
+                        padding: -10px;
+                        box-shadow: 10px 10px #c0392b;
+                    }
+                    
+                    .reverse {
+                        flex-direction: row-reverse;
+                    }
+                    
+                    .price {
+                        width: 80px;
+                        height: 25px;
+                        margin-right: -2rem;
+                        z-index: 0;
+                        font-size: 1.2rem;
+                    }
+                    
+                    .img-box {
+                        display: flex;
+                    }
+                    /***contact section**/
+                    
+                    #contact>header {
+                        height: 500px;
+                        background: url("./img/navi.jpg") no-repeat center center fixed;
+                        -webkit-background-size: cover;
+                        -moz-background-size: cover;
+                        -o-background-size: cover;
+                        background-size: cover;
+                    }
+                    
+                    .map-img {
+                        margin: 1rem 0;
+                        width: 100%;
+                        height: auto;
+                    }
+                    
+                    .adress {
+                        padding: 1rem;
+                    }
+                    
+                    footer .container {
+                        margin-top: 10px;
+                        display: flex;
+                        justify-content: space-between;
+                    }
+                    
+                    footer {
+                        font-size: 0.8em;
+                        color: gray;
+                        margin: 10 0px;
+                        width: 100%;
+                        border-top: 2px solid #CF393F;
+                        border-bottom: 2px solid #CF393F;
+                    }
+                    
+                    footer a {
+                        color: gray;
+                        text-transform: uppercase;
+                    }
+                    
+                    #nav-footer li {
+                        padding: 0.2rem;
+                        margin: 0;
+                        display: block;
+                        color: gray;
+                    }
+                    
+                    #nav-footer li a:hover {
+                        color: #fff;
+                    }
+                    
+                    .copy {
+                        border-top: 1px solid gray;
+                        border-bottom: 1px solid gray;
+                    }
+                    
+                    .box {
+                        padding: 1rem;
+                    }
